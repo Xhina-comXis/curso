@@ -32,16 +32,16 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="inline-block px-4 py-2 bg-[#d4af37]/10 border border-[#d4af37]/30 rounded-full">
                   <span className="text-[#d4af37] text-sm font-semibold uppercase tracking-wider">
-                    Acesso Exclusivo
+                    [SUBTÍTULO]
                   </span>
                 </div>
 
                 <h1 className="text-5xl md:text-7xl font-black text-white leading-tight">
-                  Domine a Arte de <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d4af37] to-[#00ff88]">Vender Online</span>
+                  [TÍTULO <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d4af37] to-[#00ff88]">PRINCIPAL]</span>
                 </h1>
 
                 <p className="text-xl text-gray-300 leading-relaxed max-w-xl">
-                  Descubra os segredos que os maiores vendedores usam para fechar negócios e construir um império digital. Tudo que você precisa está aqui.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
               </div>
 
@@ -68,11 +68,11 @@ export default function Home() {
               <div className="flex items-center gap-6 pt-4 text-sm text-gray-400">
                 <div className="flex items-center gap-2">
                   <Users className="h-5 w-5 text-[#00ff88]" />
-                  <span>5.847 Alunos Satisfeitos</span>
+                  <span>[NÚMERO] Alunos</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Star className="h-5 w-5 text-[#d4af37]" />
-                  <span>4.9/5 Estrelas</span>
+                  <span>[AVALIAÇÃO]</span>
                 </div>
               </div>
             </div>
@@ -105,10 +105,10 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center space-y-12">
             <div className="space-y-4">
               <h2 className="text-5xl md:text-6xl font-black text-white">
-                O Que Está Te Impedindo de Crescer?
+                [TÍTULO SEÇÃO 2]
               </h2>
               <p className="text-xl text-gray-400">
-                Identifique os obstáculos que separam você do sucesso e aprenda como superá-los
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
               </p>
             </div>
 
@@ -116,18 +116,18 @@ export default function Home() {
             <div className="grid md:grid-cols-3 gap-6 pt-8">
               {[
                 {
-                  title: "Falta de Estratégia",
-                  description: "Não sabe por onde começar ou qual caminho seguir para ter sucesso",
+                  title: "[CARD 1]",
+                  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                   icon: "🎯",
                 },
                 {
-                  title: "Sem Resultados",
-                  description: "Tenta várias coisas mas nada parece funcionar de verdade",
+                  title: "[CARD 2]",
+                  description: "Sed do eiusmod tempor incididunt ut labore et dolore magna.",
                   icon: "📊",
                 },
                 {
-                  title: "Insegurança",
-                  description: "Dúvida se consegue fazer isso sozinho ou se é realmente capaz",
+                  title: "[CARD 3]",
+                  description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
                   icon: "🔒",
                 },
               ].map((problem, idx) => (
@@ -167,22 +167,22 @@ export default function Home() {
               <div className="space-y-8 order-1 md:order-2">
                 <div className="space-y-4">
                   <h2 className="text-5xl md:text-6xl font-black text-white">
-                    Tudo Que Você Precisa
+                    [TÍTULO SEÇÃO 3]
                   </h2>
                   <p className="text-xl text-gray-400">
-                    Um sistema completo, testado e comprovado que já transformou a vida de milhares de pessoas. Agora é sua vez.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   </p>
                 </div>
 
                 {/* Features */}
                 <div className="space-y-4">
                   {[
-                    "Método passo a passo comprovado",
-                    "Acesso vitalício ao conteúdo",
-                    "Suporte direto com especialistas",
-                    "Comunidade exclusiva de alunos",
-                    "Certificado reconhecido no mercado",
-                    "Bônus exclusivos e atualizações grátis",
+                    "[BENEFÍCIO 1]",
+                    "[BENEFÍCIO 2]",
+                    "[BENEFÍCIO 3]",
+                    "[BENEFÍCIO 4]",
+                    "[BENEFÍCIO 5]",
+                    "[BENEFÍCIO 6]",
                   ].map((feature, idx) => (
                     <div key={idx} className="flex items-center gap-3">
                       <CheckCircle2 className="h-6 w-6 text-[#00ff88] flex-shrink-0" />
@@ -203,10 +203,10 @@ export default function Home() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-5xl md:text-6xl font-black text-white mb-4">
-                Histórias de Sucesso
+                [TÍTULO DEPOIMENTOS]
               </h2>
               <p className="text-xl text-gray-400">
-                Veja como pessoas comuns transformaram suas vidas com este programa
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
 
@@ -214,17 +214,17 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-8">
               {[
                 {
-                  name: "Maria Silva",
-                  role: "Empreendedora Digital",
+                  name: "[NOME 1]",
+                  role: "[PROFISSÃO 1]",
                   image: "testimonial_1",
-                  text: "Mudou completamente minha vida. Em 3 meses já estava faturando 5x mais. Não tenho palavras para agradecer!",
+                  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                   rating: 5,
                 },
                 {
-                  name: "João Santos",
-                  role: "Consultor de Negócios",
+                  name: "[NOME 2]",
+                  role: "[PROFISSÃO 2]",
                   image: "testimonial_2",
-                  text: "Finalmente encontrei a fórmula que funciona. Meus clientes triplicaram e agora tenho tempo livre de verdade.",
+                  text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                   rating: 5,
                 },
               ].map((testimonial, idx) => (
@@ -263,10 +263,10 @@ export default function Home() {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-5xl md:text-6xl font-black text-white mb-4">
-                Oferta Especial
+                [TÍTULO PRICING]
               </h2>
               <p className="text-xl text-gray-400">
-                Acesso completo com todos os bônus inclusos
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
 
@@ -277,23 +277,23 @@ export default function Home() {
 
               <div className="relative z-10 space-y-6">
                 <div className="space-y-2">
-                  <p className="text-gray-400 text-lg">Valor Normal: R$ 497,00</p>
+                  <p className="text-gray-400 text-lg">Valor Normal: R$ [PREÇO ORIGINAL]</p>
                   <div className="flex items-baseline gap-2">
-                    <span className="text-6xl font-black text-[#d4af37]">R$ 197</span>
-                    <span className="text-gray-400">/acesso vitalício</span>
+                    <span className="text-6xl font-black text-[#d4af37]">R$ [PREÇO FINAL]</span>
+                    <span className="text-gray-400">/[PERÍODO]</span>
                   </div>
-                  <p className="text-[#00ff88] font-bold">60% de desconto por tempo limitado</p>
+                  <p className="text-[#00ff88] font-bold">[DESCONTO]% de desconto</p>
                 </div>
 
                 {/* Bonus List */}
                 <div className="space-y-3 pt-6 border-t border-[#d4af37]/20">
                   <p className="text-white font-bold text-lg">Incluso nesta oferta:</p>
                   {[
-                    "Acesso vitalício a todo conteúdo",
-                    "Videoaulas em alta qualidade",
-                    "Certificado digital reconhecido",
-                    "Grupo VIP de suporte",
-                    "Bônus exclusivos (valor R$ 300)",
+                    "[BÔNUS 1]",
+                    "[BÔNUS 2]",
+                    "[BÔNUS 3]",
+                    "[BÔNUS 4]",
+                    "[BÔNUS 5]",
                   ].map((bonus, idx) => (
                     <div key={idx} className="flex items-center gap-2">
                       <CheckCircle2 className="h-5 w-5 text-[#00ff88] flex-shrink-0" />
@@ -326,10 +326,10 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center space-y-8">
             <div className="space-y-4">
               <h2 className="text-5xl md:text-6xl font-black text-white">
-                Sua Transformação Começa Agora
+                [TÍTULO CTA FINAL]
               </h2>
               <p className="text-xl text-gray-400">
-                Não deixe para depois. Cada dia que passa é um dia perdido. Garanta seu acesso hoje com 60% de desconto.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
 
@@ -347,9 +347,9 @@ export default function Home() {
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div>
-                <h3 className="text-white font-bold mb-4">Sobre o Programa</h3>
+                <h3 className="text-white font-bold mb-4">Sobre</h3>
                 <p className="text-gray-400 text-sm">
-                  Desenvolvido por especialistas com mais de 20 anos de experiência no mercado. Já transformou a vida de mais de 50 mil pessoas.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
               </div>
               <div>
