@@ -2,10 +2,10 @@
 **/node_modules
 .pnpm-store/
 
-# Build outputs
+# Build outputs (keep compiled files for GitHub Pages)
 dist/
 build/
-*.dist
+# *.dist
 
 # Environment variables
 .env
